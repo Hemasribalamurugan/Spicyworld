@@ -1,0 +1,157 @@
+body,h2{
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.landing{
+    background-image: url('../Image/homepage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;  
+    color:rgb(255, 187, 0);
+}
+
+header a{
+    text-decoration: none;
+    color:rgb(7, 129, 24);
+    min-width: 100px;
+    
+}
+
+header{
+    display: flex;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+
+#logo{
+    flex: 4;
+    font-size: 1.5em;
+    font-weight: bold;
+    min-width: 300px;
+}
+
+nav{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    flex: 0.5;
+}
+
+nav a:hover{
+    color:rgb(255, 187, 0);  
+}
+
+header h2 i, nav a i{
+    margin-right: 0.5em;
+}
+
+.maintext{
+    display:flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    padding:2em;
+}
+
+.tagline1{
+
+    color:rgb(255, 187, 0);
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.tagline2{
+    color:rgb(7, 129, 24);
+    font-size: 1.5em;   
+}
+
+.maintext button{
+    width: 15vw;
+    color:rgb(255, 187, 0);
+    border-radius: 10px;
+    padding: 0.5em;
+    background-color: rgb(7, 129, 24);
+    
+}
+
+.menu{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    background-color: black;
+    color:rgb(255, 187, 0);
+    padding: 1em;
+    
+}
+
+#Menuheading,#Locheading{
+    background-color: black;
+    color:rgb(7, 129, 24);
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.menu th{
+    color:rgb(7, 129, 24);
+    font-size: 1.5em; 
+    padding: 1em;   
+}
+
+.menu table{
+    padding: 1em;
+    width: 300px;
+    
+}
+
+.menu tr{
+    display: flex;
+    justify-content: center;
+}
+
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+
+.menu td:nth-child(2){
+    justify-self: right;
+}
+
+.location{
+    background-color: black;
+    color:rgb(255, 187, 0);
+    font-size: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.location h2{
+    color:rgb(7, 129, 24);
+    font-size: 1.5em;
+    padding: 0.5em;
+    
+}
+
+.location div{
+    flex: 1;
+    padding: 1em;
+    min-width: 355px;
+}
+
+footer{
+    background-color: rgb(16, 49, 21);
+    color:rgb(255, 187, 0);
+    font-size: 0.8em
+}
+
+
+
+
+
+
+
